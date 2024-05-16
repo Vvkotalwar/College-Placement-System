@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+  main {
+    padding-left: 40px;
+  padding-right: 40px;
+    padding: 2rem;
+  }
+  
+  .job-profile h1 {
+    margin-left: 20px;
+  margin-right: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .job-profile h2 {
+    padding-left: 20px;
+  padding-right: 20px;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .job-profile ul {
+    padding-left: 20px;
+  padding-right: 20px;
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  .job-profile li {
+    padding-left: 20px;
+  padding-right: 20px;
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  .latest-blogs h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f44336;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width:100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+}
